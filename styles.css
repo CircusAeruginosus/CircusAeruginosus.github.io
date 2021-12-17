@@ -102,6 +102,20 @@ h4 {
 p {
     color: white;
     font-family: "Asap";
+    
+}
+
+#watchthis-screenshot {
+    height: 300px;
+    border: 5px solid #F25C54;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color:#577590 ;
 }
 
 
@@ -115,7 +129,13 @@ p {
     height: 100px;
     width: 100px;
     border: 2px solid white;
+    border-radius: 20px;
     margin: 50px;
+}
+
+#linked-in:active {
+    transform: translate(0, 3px);
+
 }
 
 #github {
@@ -125,4 +145,8 @@ p {
     border: 2px solid white;
     border-radius: 100px;
     margin: 50px;
+}
+
+#github:active {
+    transform: translate(0, 3px);
 }
