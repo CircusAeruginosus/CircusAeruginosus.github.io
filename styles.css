@@ -80,11 +80,12 @@ h4 {
     color: #577590;
     font-family: "Comfortaa";
     margin: 50px;
+
 }
 
-#icon-container {
+#skills-icons {
     display: flex;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
 #projects {
@@ -122,6 +123,10 @@ a:hover {
 .icons {
     height: 100px;
     width: 100px;
+}
+
+figcaption {
+    color: white;
 }
 
 #linked-in {
